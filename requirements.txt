@@ -1,2 +1,6 @@
 scikit-learn
-tensorflow
+matplotlib
+tesseract 
+pytesseract
+PyPDF2
+textract

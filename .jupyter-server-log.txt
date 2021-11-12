@@ -62,3 +62,136 @@ not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
 2021-11-12 01:38:46.177344: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
 2021-11-12 01:38:46.177412: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[W 2021-11-12 01:53:54.568 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-11-12 01:53:54.569 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-11-12 01:53:54.569 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-12 01:53:54.569 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-11-12 01:53:54.579 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-11-12 01:53:54.579 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 01:53:54.588 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 01:53:54.591 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 01:53:54.592 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 01:53:54.592 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 01:53:54.592 NotebookApp] http://jupyter-lugq1990-2dbinder-5fproject-2dsmkn58fx:8888/user/lugq1990-binder_project-smkn58fx/?token=...
+[I 01:53:54.592 NotebookApp]  or http://127.0.0.1:8888/user/lugq1990-binder_project-smkn58fx/?token=...
+[I 01:53:54.592 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:53:54.597 NotebookApp] No web browser found: could not locate runnable browser.
+[I 01:53:54.599 NotebookApp] 302 GET /user/lugq1990-binder_project-smkn58fx/ (10.0.11.11) 0.800000ms
+[I 01:53:54.975 NotebookApp] 302 GET /user/lugq1990-binder_project-smkn58fx/?token=Nk1w0KfXQYGFvbmlbYzh2w (175.163.79.177) 0.930000ms
+[I 01:53:55.270 NotebookApp] 301 GET /user/lugq1990-binder_project-smkn58fx/lab/?token=Nk1w0KfXQYGFvbmlbYzh2w (175.163.79.177) 1.630000ms
+[I 01:54:32.377 NotebookApp] 301 GET /user/lugq1990-binder_project-smkn58fx/static/favicons/favicon.ico (175.163.79.177) 0.900000ms
+[I 2021-11-12 01:54:41.693 LabApp] Build is up to date
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 01:54:56.131 NotebookApp] Notebook startpiont.ipynb is not trusted
+Exception in callback <TaskWakeupMethWrapper object at 0x7f5cc6099290>(<Future finished result=None>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f5cc6099290>(<Future finished result=None>)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending coro=<RequestHandler._execute() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py:1704> wait_for=<Future finished result=None> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py:2326]> while another task <Task pending coro=<MappingKernelManager.start_kernel() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]> is being executed.
+Task was destroyed but it is pending!
+task: <Task pending coro=<RequestHandler._execute() done, defined at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py:1660> wait_for=<Future finished result=None> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py:2326]>
+[I 01:55:04.820 NotebookApp] Kernel started: 731178dc-446f-4b82-ad3f-050c20c9a719, name: python3
+[I 01:55:04.820 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 01:55:04.820 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 01:55:09.248 NotebookApp] 301 GET /user/lugq1990-binder_project-smkn58fx/static/favicons/favicon-busy-1.ico (175.163.79.177) 0.960000ms
+[I 01:57:02.295 NotebookApp] Saving file at /requirements.txt
+[I 01:58:35.694 NotebookApp] Saving file at /requirements.txt
+[I 01:58:38.724 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 02:03:12.854 NotebookApp] Saving file at /requirements.txt
+[I 02:03:17.295 NotebookApp] Saving file at /requirements.txt
+[W 02:06:04.821 NotebookApp] Culling 'idle' kernel 'python3' (731178dc-446f-4b82-ad3f-050c20c9a719) with 2 connections due to 653 seconds of inactivity.
+[I 02:06:04.822 NotebookApp] Kernel shutdown: 731178dc-446f-4b82-ad3f-050c20c9a719
+[I 02:07:20.711 NotebookApp] Saving file at /requirements.txt
+[I 02:08:21.891 NotebookApp] Saving file at /requirements.txt
+[I 02:08:50.553 NotebookApp] Kernel started: 170d6bd7-00e2-47e7-b5d7-c5e5b4be15f9, name: python3
+[I 02:09:02.319 NotebookApp] Saving file at /startpiont.ipynb
+[I 02:09:21.004 NotebookApp] Uploading file to /one_page_png.png
+[I 02:11:03.083 NotebookApp] Saving file at /startpiont.ipynb
+[I 02:17:49.865 NotebookApp] Saving file at /README.md
+[I 02:18:34.807 NotebookApp] Saving file at /README.md
+[I 02:19:03.917 NotebookApp] Saving file at /startpiont.ipynb
+[I 02:21:04.700 NotebookApp] Saving file at /startpiont.ipynb
+[W 02:31:04.823 NotebookApp] Culling 'idle' kernel 'python3' (170d6bd7-00e2-47e7-b5d7-c5e5b4be15f9) with 1 connections due to 620 seconds of inactivity.
+[I 02:31:04.826 NotebookApp] Kernel shutdown: 170d6bd7-00e2-47e7-b5d7-c5e5b4be15f9
+[I 02:31:49.070 NotebookApp] Creating new notebook in 
+[I 02:31:50.887 NotebookApp] Kernel started: 8ad8efe1-f08d-483e-9a73-990b7ea7362b, name: python3
+[I 02:33:50.840 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:35:52.661 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:37:53.567 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:39:54.358 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:40:47.473 NotebookApp] Saving file at /README.md
+[I 02:41:50.726 NotebookApp] Saving file at /requirements.txt
+[I 02:41:55.386 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:43:56.716 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:45:59.146 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:48:00.955 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:50:02.727 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:52:04.805 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:54:06.581 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:56:08.372 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 02:58:10.273 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:00:11.411 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:01:39.174 NotebookApp] Uploading file to /ch_contract_one_page.png
+[I 03:02:12.580 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:04:14.856 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:06:16.598 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:08:18.898 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:10:21.204 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:15:26.816 NotebookApp] Saving file at /ch_contract_one_page.png
+[I 03:16:22.717 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:18:24.824 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:19:21.473 NotebookApp] Saving file at /ch_contract_one_page.png
+[I 03:20:26.338 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:20:39.193 NotebookApp] Uploading file to /not_good.png
+[I 03:22:28.411 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:24:30.684 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:26:33.365 NotebookApp] Saving file at /OCR Implement.ipynb
+[W 03:36:04.822 NotebookApp] Culling 'idle' kernel 'python3' (8ad8efe1-f08d-483e-9a73-990b7ea7362b) with 1 connections due to 645 seconds of inactivity.
+[I 03:36:04.823 NotebookApp] Kernel shutdown: 8ad8efe1-f08d-483e-9a73-990b7ea7362b
+[I 03:56:36.087 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:58:38.664 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 03:59:15.597 NotebookApp] Uploading file to /one_page_sample_contract.pdf
+[I 03:59:51.707 NotebookApp] Saving file at /requirements.txt
+[I 04:00:24.577 NotebookApp] Kernel started: 0c5b2050-e1a8-4abc-8e28-30a369b210d5, name: python3
+[I 04:00:41.059 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 04:02:43.635 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 04:04:30.819 NotebookApp] Saving file at /requirements.txt
+[I 04:06:46.082 NotebookApp] Saving file at /OCR Implement.ipynb
+[W 04:16:04.822 NotebookApp] Culling 'idle' kernel 'python3' (0c5b2050-e1a8-4abc-8e28-30a369b210d5) with 1 connections due to 606 seconds of inactivity.
+[I 04:16:04.823 NotebookApp] Kernel shutdown: 0c5b2050-e1a8-4abc-8e28-30a369b210d5
+[I 05:28:40.171 NotebookApp] Kernel started: b5a375c0-1954-4c33-ab81-5a58b8960b13, name: python3
+[I 05:30:03.357 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:32:14.093 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:32:54.879 NotebookApp] Saving file at /OCR Implement.ipynb
+[W 05:42:04.822 NotebookApp] Culling 'idle' kernel 'python3' (b5a375c0-1954-4c33-ab81-5a58b8960b13) with 1 connections due to 629 seconds of inactivity.
+[I 05:42:04.823 NotebookApp] Kernel shutdown: b5a375c0-1954-4c33-ab81-5a58b8960b13
+[I 05:42:40.028 NotebookApp] Uploading file to /sample_ch_contract.pdf
+[I 05:43:01.091 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:43:03.603 NotebookApp] Kernel started: 367d85a6-ecf3-4c73-8404-3ab01a10ffef, name: python3
+[I 05:45:03.866 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:47:06.418 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:49:09.188 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:51:12.903 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:53:26.146 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:55:40.237 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:57:42.797 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:59:46.323 NotebookApp] Saving file at /OCR Implement.ipynb
+[I 05:59:53.202 NotebookApp] Kernel restarted: 367d85a6-ecf3-4c73-8404-3ab01a10ffef
+[I 05:59:53.552 NotebookApp] Starting buffering for 367d85a6-ecf3-4c73-8404-3ab01a10ffef:2513002f-919a-4736-b3a6-01d1b3736dbb
+[I 05:59:55.296 NotebookApp] Restoring connection for 367d85a6-ecf3-4c73-8404-3ab01a10ffef:2513002f-919a-4736-b3a6-01d1b3736dbb
+[I 05:59:55.303 NotebookApp] Replaying 3 buffered messages
